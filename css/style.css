@@ -44,9 +44,9 @@ p {
 
 ul {
   margin-top: 8px;
-  font-family: 'Open Sans Light', sans-serif;
-  font-size: 14px;
-  margin-left: -25px;
+  padding-left: 22px;
+  list-style-image: url('images/marcador.png');
+  line-height: 0px;
 }
 
 header .logo img{
@@ -62,6 +62,7 @@ footer {
 	left: 0;
   height: 180px;
   width: 100%;
+  display: block;
 }
 
 #videos {
@@ -89,6 +90,7 @@ footer {
   font-size: 30px;
   line-height: 12px;
   margin-left: 5px;
+  width: 385px;
 }
 
 #videos .box-conteudo-videos .grupo-texto ul li span {
@@ -105,6 +107,10 @@ footer {
   right: 0px;
   margin-right: 0px;
   margin-top: 71px;
+}
+
+#publicacoes .noticias{
+  height: 248px;
 }
 
 #publicacoes .grupo-texto-publicacoes {
@@ -133,14 +139,27 @@ footer {
   left: 0;
   display: inline;
   text-align: center;
-  padding: 60px 0px;
-  height: 190px;
+  margin: 50px 0px;
+  height: 150px;
 }
 
 .noticias .botao-noticias span{
   color: #09a67c;
   font-size: 24px;
   font-weight: 700;
+}
+
+#publicacoes .noticias .noticias-texto a {
+  float: right;
+}
+
+#publicacoes .noticias .noticias-texto h4 {
+  margin: 1px;
+}
+
+#publicacoes .noticias .noticias-texto span {
+  font-size: 11px;
+  color: #898586;
 }
 
 .noticias .noticias-texto{
@@ -164,6 +183,7 @@ footer {
   width: 130px;
   font-size: 12px;
   border-color: #09a67c;
+  border: solid 1px #09a67c;
 }
 
 .noticias .noticias-texto p {
@@ -172,4 +192,80 @@ footer {
 
 #chat {
   background-color: #d5d5d5;
+  float: left;
+  position: absolute;
+  left: 0;
+  top: 573px;
+  width: 45.3%;
+  height: 700px;
+}
+
+#chat .box-chat {
+  float: right;
+  position: absolute;
+  right: 30px;
+}
+
+#chat .box-chat .texto-chat {
+  color: #000;
+  font-size: 12px;
+  width: 420px;
+  background-color: #fff;
+  border: solid 1px #cccdcd;
+  padding: 10px;
+}
+
+.envio-mensagem{
+  background-color: #eaeaea;
+  border: solid 1px #cccdcd;
+  padding: 8px;
+}
+
+.envio-mensagem input[type='text'] {
+  height: 20px;
+  width: 355px;
+  border: solid 1px #cccdcd;
+  font-family: "Open Sans Light", sans-serif;
+  padding-left: 8px;
+}
+
+.envio-mensagem button {
+  background-color: #09a67c;
+  color: #fff;
+  height: 23px;
+  border: none;
+  font-family: "Open Sans Light", sans-serif;
+  padding: 0px 10px;
+}
+
+.texto-chat {
+  overflow-y: scroll;
+  height: 200px;
+}
+
+.texto-chat span {
+  margin-top: 8px;
+}
+
+.texto-chat span em {
+  font-size: 9px;
+  color: #898586;
+  font-style: normal;
+}
+
+.titulo-box-chat {
+  background-color: #00533e;
+  width: 410px;
+  height: 43px;
+  margin-left: 15px;
+  -webkit-box-shadow: -1px 3px 8px 0px rgba(50, 50, 50, 0.2);
+  -moz-box-shadow: -1px 3px 8px 0px rgba(50, 50, 50, 0.2);
+  box-shadow: -1px 3px 8px 0px rgba(50, 50, 50, 0.2);
+}
+
+.titulo-box-chat h2 {
+  margin-bottom: -10px;
+  margin-left: 45px;
+  text-transform: uppercase;
+  font-size: 18px;
 }
