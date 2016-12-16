@@ -36,8 +36,14 @@ footer {
 #videos {
   background-color: #235643;
   width: 40%;
-  padding: 50px 100px;
-  margin-left: 0px;
+  padding: 100px 100px;
+  float: left;
+  position: absolute;
+  left: 0px;
+}
+
+#videos .box-conteudo-videos{
+  margin-left: 160px;
 }
 
 #publicacoes {
