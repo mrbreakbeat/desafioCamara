@@ -6,8 +6,6 @@ body {
 	font-family: "Open Sans", sans-serif;
 }
 
-h
-
 header {
   background-color: #092b2a;
   height: 50px;
@@ -15,9 +13,10 @@ header {
   position: fixed;
   top: 0;
 	left: 0;
+  z-index: 999;
 }
 
-h3{
+h1{
 
 }
 
@@ -37,6 +36,8 @@ footer {
 #videos {
   background-color: #235643;
   width: 40%;
+  padding: 50px 100px;
+  margin-left: 0px;
 }
 
 #publicacoes {
