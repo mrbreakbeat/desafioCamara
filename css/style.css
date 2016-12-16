@@ -1,0 +1,49 @@
+/**/
+
+body {
+  background-color: #082827;
+  color: #fff;
+	font-family: "Open Sans", sans-serif;
+}
+
+h
+
+header {
+  background-color: #092b2a;
+  height: 50px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+	left: 0;
+}
+
+h3{
+
+}
+
+p{
+  font-family: "Open Sans Light", sans-serif;
+}
+
+footer {
+  background-color: #213d4d;
+  position: fixed;
+  bottom: 0;
+	left: 0;
+  height: 180px;
+  width: 100%;
+}
+
+#videos {
+  background-color: #235643;
+  width: 40%;
+}
+
+#publicacoes {
+  background-color: #082827;
+  width: 60%;
+}
+
+#chat {
+  background-color: #d5d5d5;
+}
