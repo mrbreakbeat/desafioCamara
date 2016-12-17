@@ -4,6 +4,7 @@ body {
   background-color: #092b2a;
   color: #fff;
 	font-family: "Open Sans", sans-serif;
+  overflow-x: hidden;
 }
 
 html * {
@@ -26,6 +27,16 @@ header {
   top: 0;
 	left: 0;
   z-index: 999;
+}
+
+header .encerrar-sessao {
+  float: right;
+  color: #fff;
+  text-decoration: none;
+  font-family: "Open Sans Light", sans-serif;
+  font-size: 12px;
+  margin-right: 70px;
+  margin-top: 25px;
 }
 
 h1{
@@ -57,12 +68,19 @@ header .logo img{
 
 footer {
   background-color: #213d4d;
-  position: fixed;
-  bottom: 0;
-	left: 0;
+  position: absolute;
+  top: 1250px;
+  left: 0px;
   height: 180px;
   width: 100%;
-  display: block;
+}
+
+footer .links-rodape{
+  margin: 0 auto;
+  width: 31%;
+  padding-top: 70px;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 #videos {
@@ -114,14 +132,18 @@ footer {
 }
 
 #publicacoes .grupo-texto-publicacoes {
-  width: 520px;
+  width: 650px;
   padding-right: 15px;
   height: 110px;
 }
 
+#publicacoes .grupo-texto-publicacoes .paragrafo-publicacoes {
+  width: 550px;
+}
+
 #publicacoes .grupo-texto-publicacoes .box-amarelo {
   height: 16px;
-  width: 255px;
+  width: 380px;
   background-color: #fbc605;
   float: right;
   margin-top: 5px;
@@ -163,10 +185,10 @@ footer {
 }
 
 .noticias .noticias-texto{
-  width: 520px;
+  width: 475px;
   float: right;
   position: absolute;
-  right: 100px;
+  right: 145px;
   background-color: #fff;
   color: #000;
   padding: 13px;
@@ -209,15 +231,15 @@ footer {
 #chat .box-chat .texto-chat {
   color: #000;
   font-size: 12px;
-  width: 420px;
+  width: 422px;
   background-color: #fff;
-  border: solid 1px #cccdcd;
-  padding: 10px;
+  /*border: solid 1px #cccdcd;*/
+  padding: 30px 10px 10px 10px;
+  margin-top:40px;
 }
 
 .envio-mensagem{
   background-color: #eaeaea;
-  border: solid 1px #cccdcd;
   padding: 8px;
 }
 
@@ -241,6 +263,7 @@ footer {
 .texto-chat {
   overflow-y: scroll;
   height: 200px;
+  margin-top: -90px;
 }
 
 .texto-chat span {
@@ -255,17 +278,27 @@ footer {
 
 .titulo-box-chat {
   background-color: #00533e;
-  width: 410px;
   height: 43px;
-  margin-left: 15px;
   -webkit-box-shadow: -1px 3px 8px 0px rgba(50, 50, 50, 0.2);
   -moz-box-shadow: -1px 3px 8px 0px rgba(50, 50, 50, 0.2);
   box-shadow: -1px 3px 8px 0px rgba(50, 50, 50, 0.2);
+  margin-left:20px;
+  margin-top:20px;
+  padding-left:20px;
+  z-index: 10;
+  width:385px;
+  position:absolute;
+
 }
 
 .titulo-box-chat h2 {
-  margin-bottom: -10px;
-  margin-left: 45px;
   text-transform: uppercase;
-  font-size: 18px;
+  font-size:18px;
+  float:left;
+  margin: 9px 0px 0px 0px;
+  padding: 0px;
+}
+
+.titulo-box-chat img {
+  float:left;
 }
